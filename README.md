@@ -6,7 +6,7 @@
 
 [Демо "Портфолио"](https://DIvK-Neto.github.io/HW_12-2_events-state_filter/) 
 
-![screenshot](docs/screenshot.png)
+![screenshot](docs/screenshot/screenshot.png)
 
 
 

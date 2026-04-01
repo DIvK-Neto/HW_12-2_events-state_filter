@@ -5,6 +5,7 @@ import './App.css';
 function App() {
   return (
     <div>
+      <p>asdasd</p>
       <Portfolio projects={projectsData} />
     </div>
   );
