@@ -1,16 +1,18 @@
 .project-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 16px;
+  column-count: 3;
+  column-gap: 16px;
 }
 
 .project-card {
+  display: inline-block;
   width: 100%;
+  margin-bottom: 16px;
   box-sizing: border-box;
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
   transition: transform 0.2s;
+  break-inside: avoid;
 }
 
 .project-card:hover {
@@ -21,4 +23,16 @@
   width: 100%;
   height: auto;
   display: block;
+}
+
+@media (max-width: 768px) {
+  .project-list {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-list {
+    column-count: 1;
+  }
 }
