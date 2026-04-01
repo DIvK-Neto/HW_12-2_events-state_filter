@@ -1,7 +1,6 @@
 # Портфолио с фильтрами
 
-[![CI/CD](https://img.shields.io/badge/CI%2FCD-not%20configured-lightgrey)]()
-[![React](https://img.shields.io/badge/React-19-blue)]()
+[![CI/CD](https://github.com/DIvK-Neto/HW_12-2_events-state_filter/actions/workflows/web.yml/badge.svg)](https://github.com/DIvK-Neto/HW_12-2_events-state_filter/actions/workflows/web.yml)
 
 [Условие домашнего задания](docs/assignment.md) 
 
